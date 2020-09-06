@@ -10,6 +10,7 @@
 		B0B377F225035C7D006C7543 /* DennyNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B377F025035C7D006C7543 /* DennyNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0B377FF25035CF1006C7543 /* DennyNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B377FE25035CF1006C7543 /* DennyNavigationBar.swift */; };
 		B0B3788425047C96006C7543 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3788325047C96006C7543 /* UIImage+Color.swift */; };
+		B0B3788E25048327006C7543 /* DennyNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3788D25048327006C7543 /* DennyNavigationItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		B0B377F125035C7D006C7543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B377FE25035CF1006C7543 /* DennyNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DennyNavigationBar.swift; sourceTree = "<group>"; };
 		B0B3788325047C96006C7543 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		B0B3788D25048327006C7543 /* DennyNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DennyNavigationItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				B0B377F125035C7D006C7543 /* Info.plist */,
 				B0B377FE25035CF1006C7543 /* DennyNavigationBar.swift */,
 				B0B3788325047C96006C7543 /* UIImage+Color.swift */,
+				B0B3788D25048327006C7543 /* DennyNavigationItem.swift */,
 			);
 			path = DennyNavigationBar;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B3788E25048327006C7543 /* DennyNavigationItem.swift in Sources */,
 				B0B377FF25035CF1006C7543 /* DennyNavigationBar.swift in Sources */,
 				B0B3788425047C96006C7543 /* UIImage+Color.swift in Sources */,
 			);
