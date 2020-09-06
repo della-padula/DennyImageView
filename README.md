@@ -15,13 +15,14 @@ func removeBottomBorder()
 func setBackgroundColor(color: UIColor)
 func setBottomBorderColor(color: UIColor, height: CGFloat = (1.0 / UIScreen.main.scale))
 ```
-## How To Use  
-### Use Cocoapods  
-In Podfile
-```swift
+## Installation  
+### Cocoapods
+DennyNavigationBar is available through CocoaPods, to install it simply add the following line to your Podfile:   
+```ruby
 pod 'DennyNavigationBar'
 ```
 
+## How To Use  
 ### Import Framework  
 ```swift
 import DennyNavigationBar
