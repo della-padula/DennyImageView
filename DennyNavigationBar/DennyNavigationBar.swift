@@ -20,6 +20,10 @@ public class DennyNavigationBar: UINavigationBar {
         self.shadowImage = emptyShadowImage
     }
     
+    public func setButtonTintColor(color: UIColor) {
+        self.tintColor = color
+    }
+    
     public func setBackgroundColor(color: UIColor) {
         self.backgroundColor = color
         self.barTintColor = color
