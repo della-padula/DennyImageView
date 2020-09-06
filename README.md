@@ -76,3 +76,4 @@ if let navigationItem = self.navigationItem as? DennyNavigationItem {
 }
 ```
 ## Sample Screenshot  
+![screenshot](./sample1.png) 
