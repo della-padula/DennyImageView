@@ -1,4 +1,4 @@
-# DennyNavigationBar
+# DennyNavigationBar - iOS
 Easily editable UINavigationBar
 
 ## 1) DennyNavigationItem
