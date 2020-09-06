@@ -10,6 +10,7 @@ func addRightButton(title: String?, style: UIBarButtonItem.Style, target: Any?, 
 ## 2) DennyNavigationBar
 ```swift
 func setBackButtonImage(image: UIImage?)
+func setBottomBorderHidden(isHidden: Bool)
 func removeBottomBorder()
 func setBackgroundColor(color: UIColor)
 func setBottomBorderColor(color: UIColor, height: CGFloat = (1.0 / UIScreen.main.scale))
@@ -36,6 +37,11 @@ class ViewController: UIViewController {
 If you want to remove bottom Border, use navigationBar.removeBottomBorder().  
 ```swift
 navigationBar.removeBottomBorder()
+```
+To set up the Bar Hidden property, use it as follows:  
+```swift
+navigationBar.setBottomBorderHidden(isHidden: true)
+navigationBar.setBottomBorderHidden(isHidden: false)
 ```
 
 ### Configure Bar Button  
