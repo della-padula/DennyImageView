@@ -16,6 +16,12 @@ func setBackgroundColor(color: UIColor)
 func setBottomBorderColor(color: UIColor, height: CGFloat = (1.0 / UIScreen.main.scale))
 ```
 ## How To Use  
+### Use Cocoapods  
+In Podfile
+```
+pod 'DennyNavigationBar'
+```
+
 ### Import Framework  
 ```swift
 import DennyNavigationBar
