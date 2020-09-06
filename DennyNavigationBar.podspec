@@ -24,8 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "This library is a library that allows you to easily specify various properties of UINavigationBar.You can easily specify properties that can cause confusion, such as background, border, and tint."
 
   spec.homepage     = "https://github.com/della-padula/DennyNavigationBar"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
