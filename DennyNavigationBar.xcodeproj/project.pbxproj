@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B0B377F225035C7D006C7543 /* DennyNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B377F025035C7D006C7543 /* DennyNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B377FF25035CF1006C7543 /* DennyNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B377FE25035CF1006C7543 /* DennyNavigationBar.swift */; };
+		B0B3788425047C96006C7543 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3788325047C96006C7543 /* UIImage+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0B377ED25035C7D006C7543 /* DennyNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DennyNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B377F025035C7D006C7543 /* DennyNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DennyNavigationBar.h; sourceTree = "<group>"; };
 		B0B377F125035C7D006C7543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B377FE25035CF1006C7543 /* DennyNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DennyNavigationBar.swift; sourceTree = "<group>"; };
+		B0B3788325047C96006C7543 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				B0B377F025035C7D006C7543 /* DennyNavigationBar.h */,
 				B0B377F125035C7D006C7543 /* Info.plist */,
+				B0B377FE25035CF1006C7543 /* DennyNavigationBar.swift */,
+				B0B3788325047C96006C7543 /* UIImage+Color.swift */,
 			);
 			path = DennyNavigationBar;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 				TargetAttributes = {
 					B0B377EC25035C7D006C7543 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -130,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B377FF25035CF1006C7543 /* DennyNavigationBar.swift in Sources */,
+				B0B3788425047C96006C7543 /* UIImage+Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 		B0B377F625035C7D006C7543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = M79H9K226Y;
@@ -277,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.denny.DennyNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +296,7 @@
 		B0B377F725035C7D006C7543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = M79H9K226Y;
