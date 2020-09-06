@@ -1,2 +1,2 @@
 # DennyNavigationBar
-Image Zoom View
+Easily editable UINavigationBar
