@@ -1,5 +1,11 @@
 # DennyNavigationBar - iOS
 Easily editable UINavigationBar
+  
+## Author Information  
+Timetable Library for iOS Development   
+Author : Denny.K (Taein Kim) / Seoul, South Korea   
+Email : della.kimko@gmail.com   
+Blog : https://terry-some.tistory.com/  
 
 ## 1) DennyNavigationItem
 ```swift
