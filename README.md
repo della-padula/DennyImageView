@@ -2,7 +2,7 @@
 Easily editable UINavigationBar
   
 ## Author Information  
-Timetable Library for iOS Development   
+Custom Navigation Bar Styler Library 
 Author : Denny.K (Taein Kim) / Seoul, South Korea   
 Email : della.kimko@gmail.com   
 Blog : https://terry-some.tistory.com/  
